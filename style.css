@@ -1,0 +1,181 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffc;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+/* This is a comment, by the way */
+ 
+ 
+.navbar {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   overflow: hidden;
+   background-color: #8e1515;
+   }
+
+.navbar li {
+   float: left;
+   }
+
+.navbar li a {
+    font-style: none;
+    display: block;
+    color: #ffc;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    }
+
+.navbar li a:hover
+     {
+      background-color: #ffc;
+      color: #8e1515;
+     }
+
+#text_paragraph {
+    line-height: 21px;
+    font: 14px/1.5 "Arial", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: none;
+    font-family: Anton;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+h2 {
+    color: white;
+    background-color: #090;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #132035;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    width: auto;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.why a:active {
+    color: red;
+}
+
+.why a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+table {
+    padding: auto;
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;  
+}
+
+td {
+   border: 1px solid black;
+   }
+
+
+.list {
+      margin: auto;
+      width:50%;
+      padding: 10px 0;
+      }
+.dog_tables {
+      text-align: center;
+      }
+
+.dog {
+     width: auto;
+     margin: 5px 6px 0 6px;
+     display: inline-block;
+     }
+
+.table1 {
+      margin: 5px 6px 0 6px;
+      width: auto;
+      display: inline-block;
+      }
+
+.table2 {
+      margin: 5px 6px 0 6px;
+      width: auto;
+      display: inline-block;
+      }
+
+
+.footer_start  {
+          border-top: 2px solid black;
+          background-color: #8e1515;
+          margin-bottom: 0;
+          padding: 5px 0 10px 10px; 
+          width: 100%;
+          text-align: left;
+          }
+
+.footer {
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+         }
+
+.contact {
+    padding: 0 0 10px 10px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #8e1515;
+    color: #ffc;
+    font-style: italic;
+    float: left;
+    width: 100%;
+    }

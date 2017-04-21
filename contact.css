@@ -1,0 +1,120 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffc;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+/* This is a comment, by the way */
+ 
+ 
+.navbar {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   overflow: hidden;
+   background-color: #8e1515;
+   }
+
+.navbar li {
+   float: left;
+   }
+
+.navbar li a {
+    font-style: none;
+    display: block;
+    color: #ffc;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    }
+
+.navbar li a:hover
+     {
+      background-color: #ffc;
+      color: #8e1515;
+     }
+
+h1 {
+    color: #ffc;
+    background-color: #900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px 0 4px 20px;
+    font-style: none;
+    font-family: Anton;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+h3 {
+    color: #132035;
+    display: block;    
+    font-size: 1.25em;
+    padding-left: 40px;
+    margin: 0;
+    width: 50%;
+}
+
+p {
+    color: black;
+    display: block;    
+    font-size: 1em;
+    padding: 5px 0 0 30px;
+    margin: 0;
+    width: 50%;
+   }
+
+.button {
+         background-color: #8e1515;
+         border-radius: 8px;
+         color: #ffc;
+         border: none;
+         padding: 15px 32px 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 1em;
+         margin: 15px auto 10px 50px;
+         cursor: pointer;
+         position: absolute;
+         }
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.footer_start  {
+          border-top: 2px solid black;
+          background-color: #8e1515;
+          margin-bottom: 0;
+          padding: 5px 0 10px 10px; 
+          width: 100%;
+          text-align: left;
+          }
+
+.footer {
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+         }
+
+.contact {
+    padding: 0 0 10px 10px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #8e1515;
+    color: #ffc;
+    font-style: italic;
+    float: left;
+    width: 100%;
+    }
