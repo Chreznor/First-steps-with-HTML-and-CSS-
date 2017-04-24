@@ -61,6 +61,7 @@ h1 {
     font-style: none;
     font-family: Anton;
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.5em;
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
