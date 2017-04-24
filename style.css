@@ -128,8 +128,27 @@ table {
     border: 1px solid black;
     margin: 0;
     text-align: center;  
+     }
+
+caption	{
+	font-family: Anton;
+	text-align: left;
+	text-decoration: underline;
+	color: #252121;
+	padding-left: 15px;
 }
 
+.column1 {
+		background-color:#6B0D0F;
+	}
+.column2 {
+	background-color: #A77D00;
+}
+
+.column3 {
+	background-color: #087C19;
+}
+	
 td {
    border: 1px solid black;
    }

@@ -84,22 +84,45 @@ h2 {
     margin: auto;
     padding: 2px;
     padding-left: 14px;
-}
+    }
 
 h3 {
     color: #132035;
     font-size: 1.25em;
     text-align: center;
+    }
 
 p {
     color: black;
     display: block;    
-    font-size: 1em;
     padding: 5px 0 0 30px;
     margin: 0;
     width: 50%;
-   }
+    }
+
+.contactus_form {
+	margin: 0 auto;
+	padding: 0;
+	float: right;
+	width: 70%;
+	}
+
+#form_title {
+	text-align: center;
 }
+
+.contactus_form a {
+	clear: both;
+	text-align: right;
+}
+
+textarea:focus {
+	background-color: #837878;
+    }
+
+input:focus {
+	background-color:#837878;
+    }
 
 .button {
          background-color: #7B8895;
@@ -115,6 +138,7 @@ p {
          cursor: pointer;
          position: relative;
          }
+
 
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
