@@ -1,0 +1,40 @@
+<!Doctype HTML>
+<html>
+<head>
+   <title>My firts web page</title>
+   <link rel="stylesheet" href="findme.css">
+   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+   <meta charset="utf-8">
+   <meta name="description" content="It's my first hosted website. That's why I have no idea what to put in here">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+   <meta http-equiv="refresh" content="60"><!--not recommended for sane people-->
+</head>
+
+<body>
+<body>
+   <nav>
+       <ul class="navbar">
+           <li><a href="index.html">Main</a></li>
+           <li><a href="pictures.html">Pictures</a></li>
+           <li><a href="videos.html">Videos</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="findme.html">Find Me</a></li>
+       </ul>
+   </nav>
+   
+   <h1>Find<dfn title="if you can">US</dfn></h1>
+
+  <div id="map" style="width:100%;height:100%;"></div>
+  <script> 
+  function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(31.17, 88.80),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjaOZnQgP87MP74Ng5_fzhH6RbQ8g0cIo&callback=myMap"></script>
+</body>
