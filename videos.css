@@ -148,6 +148,10 @@ p {
     border-top: .5px solid #95957B;
    }
 
+   h1 {
+     text-align: center;
+   }
+
     }
 
     @media screen and (max-width: 800px) {
