@@ -117,6 +117,14 @@ p {
 .contactus_form a {
 	
 	}
+.input_name{
+    width: 300px;
+}
+
+textarea: {
+    width: 300px;
+    height: 150px;
+}
 
 textarea:focus {
 	background-color: #837878;
