@@ -2,6 +2,8 @@
     min-height: 100%;
     position: relative;
           }
+
+
 body, html {
      height: 100%;
      }
@@ -16,7 +18,11 @@ body {
     padding: 0px;
     margin: 0 auto;
     }
- 
+    
+ #header {
+   box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.78);
+}
+
 .navbar {
    margin: 0;
    padding: 0;

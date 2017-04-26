@@ -82,7 +82,7 @@ h1 {
 
 
 .map_hide a {
-  visibility: hidden;
+  display: none;
   }
 
 .map_show a {
@@ -103,8 +103,9 @@ h1 {
   width: 300px;
   height: 100px;
   display: block;
-  padding: 5px 10px;
+  padding: 5px 5px;
   margin: auto;
+  text-align: justify;
   }
 
 .map_show a:hover {

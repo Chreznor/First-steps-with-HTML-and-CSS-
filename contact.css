@@ -16,6 +16,9 @@ body {
     padding: 0px;
     margin: 0 auto;
     }
+ #header {
+   box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.78);
+}
  
 .navbar {
    margin: 0;
@@ -95,16 +98,16 @@ h3 {
 p {
     color: black;
     display: block;    
-    padding: 5px 0 0 30px;
+    padding: 5px 0 0 0;
     margin: 0;
-    width: 50%;
     }
 
 .contactus_form {
 	margin: 0 auto;
 	padding: 0;
-	float: right;
-	width: 70%;
+	width: 300px;
+    height: 500px;
+    text-align: justify;
 	}
 
 #form_title {
@@ -112,9 +115,8 @@ p {
 }
 
 .contactus_form a {
-	clear: both;
-	text-align: right;
-}
+	
+	}
 
 textarea:focus {
 	background-color: #837878;
