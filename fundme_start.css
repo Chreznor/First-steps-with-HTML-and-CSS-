@@ -99,9 +99,12 @@ h1 {
   border-radius: 4px;
  }
 
-.companyinfo {
-  padding: 0 400px;
-  margin: 0 auto;
+.companyinfo p {
+  width: 300px;
+  height: 100px;
+  display: block;
+  padding: 5px 10px;
+  margin: auto;
   }
 
 .map_show a:hover {
