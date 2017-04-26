@@ -184,8 +184,11 @@ input:focus {
    .navbar {
     display: block;
    }
-   .navbar li {
+   .navbar li{
     float: none;
+    border-top: .5px solid #95957B;
+   }
+
    }
 
     }
