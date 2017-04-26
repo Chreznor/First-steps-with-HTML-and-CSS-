@@ -1,8 +1,17 @@
 <!Doctype HTML>
 <html>
 <head>
+
+    <script>
+    function setStyleSheet(url){
+       var stylesheet = document.getElementById("fundme_start");
+       stylesheet.setAttribute('href', url);
+    }
+    </script>
+
    <title>My firts web page</title>
-   <link rel="stylesheet" href="findme.css">
+   <link rel="stylesheet" href="fundme_start.css" type="text/css" id="fundme_start">
+   <link rel="stylesheet alternate" href="findme.css"  id="findme">
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
    <meta charset="utf-8">
    <meta name="description" content="It's my first hosted website. That's why I have no idea what to put in here">
@@ -23,6 +32,14 @@
    </nav>
    
    <h1>Find<dfn title="if you can">US</dfn></h1>
+
+   <div class="map_hide">
+   <a onclick="setStyleSheet('fundme_start.css')" href="#">Hide Map</a>
+   </div>
+   
+   <div class="map_show">
+   <a onclick="setStyleSheet('findme.css')" id="map_hide" href="#">Show Location</a>
+   </div>
 
   <div id="map" style="width:100%;height:100%;"></div>
   <script> 

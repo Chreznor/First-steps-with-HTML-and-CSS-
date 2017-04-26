@@ -5,10 +5,38 @@ body, html {
      padding: 0;
  }
 
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #D6D6B6;
+    background-color: #95957B;  
+    max-width: 1140px;
+    padding: 0px;
+    margin: 0 auto;
+    }
+
 #map {
 	position: relative;
-	display: block;
+		}
+
+.map_show {
+  visibility: hidden;
 }
+
+.map_hide a {
+  width: 6%;
+  height: 3%;
+  border: 2px solid #7B94AC;
+  background-color: green;
+  display: block;
+  margin: 3% auto auto auto;
+  color: #FFFFEE;
+  background-color: #7B8895;
+  text-decoration: none;
+  text-align: center;
+ }
+
 
 .navbar {
    margin: 0;
@@ -53,9 +81,10 @@ h1 {
     font-size: 2em;
     margin: 0;
     padding: 4px;
+    padding-left: 4%;
     font-style: none;
     font-family: Anton;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     border-bottom-style: solid;
