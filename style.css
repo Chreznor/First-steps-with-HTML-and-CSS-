@@ -12,8 +12,8 @@ body, html {
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
-    color: #D6D6B6;
-    background-color: #95957B;  
+    color: black;
+    background-color: white; 
     max-width: 1140px;
     padding: 0px;
     margin: 0 auto;
@@ -24,7 +24,7 @@ body {
    padding: 0;
    list-style-type: none;
    overflow: hidden;
-   background-color: #7B9588;
+   background-color: #674d3c;
    }
 
 .navbar li {
@@ -43,7 +43,7 @@ body {
 .navbar li a:hover
      {
       background-color: #FFFFEE;
-      color: #7B9588;
+      color: #674d3c;
      }
 
 #text_paragraph {
@@ -57,8 +57,8 @@ body {
 }
 
 h1 {
-    color: #FFFFEE;
-    background-color: #7B8895;
+    color: #595249;
+    background-color: #fff2df;
     font-size: 2em;
     margin: 0;
     margin-bottom: 20px;
@@ -68,9 +68,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #7B94AC;
+    border-bottom: 0.5em solid #a2836e;
 }
 
 #content {
@@ -79,7 +77,7 @@ h1 {
 
 h2 {
     color: #FFFFEE;
-    background-color: #7B9588;
+    background-color: #674d3c;
     font-size: 1.5em;
     text-align: center;
     margin: auto;
@@ -107,13 +105,13 @@ a {
 
 .why a:active {
     color: red;
-}
+  }
 
 .why a:hover {
     text-decoration: none;
-    color: blue;
-    background-color: yellow;
-}
+    color: #674d3c;
+    background-color: #fff2df;
+    }
 
 input:focus, textarea:focus {
     background: #eee;
@@ -197,9 +195,9 @@ td {
         }
 
 .footer_start  {
-          border-top: 2px solid #7B94AC;
-          background-color: #7B8895;
-          color: #FFFFEE;
+          border-top: 2px solid #a2836e;
+          color: #595249;
+          background-color: #fff2df;
           margin-bottom: 0;
           padding: 10px 0 5px 15px; 
           text-align: left;
@@ -212,8 +210,8 @@ td {
 .contact {
     margin: 0;
     padding: 10px 0 10px 30px;
-    background: #7B9588;
-    color: black;
+    background-color: #674d3c;
+    color: #FFFFEE;
     font-style: italic;
     }
 
@@ -223,7 +221,7 @@ td {
    }
    .navbar li{
     float: none;
-    border-top: .5px solid #95957B;
+    border-top: .5px solid #fff2df;
    }
 
    h1 {

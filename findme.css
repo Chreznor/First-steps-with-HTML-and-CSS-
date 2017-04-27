@@ -9,8 +9,8 @@ body, html {
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
-    color: #D6D6B6;
-    background-color: #95957B;  
+    color: black;
+    background-color: white; 
     max-width: 1140px;
     padding: 0px;
     margin: 0 auto;
@@ -20,7 +20,7 @@ body {
 	position: relative;
 		}
 
-.map_show {
+.button_map_show {
   visibility: hidden;
 }
 
@@ -28,13 +28,13 @@ body {
 	display: none;
 }
 
-.map_hide a {
+.button_map_hide a {
   width: 60px;
   height: 30px;
-  background-color: green;
+  background-color: #595249;
   display: block;
   margin: 1% auto auto auto;
-  color: #FFFFEE;
+  color: #fff2df;
   background-color: #7B8895;
   text-decoration: none;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   border-radius: 4px;
  }
 
-.map_hide a:hover {
+.button_map_hide a:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -56,8 +56,8 @@ header {
    padding: 0;
    list-style-type: none;
    overflow: hidden;
-   background-color: #7B9588;
-    }
+   background-color: #674d3c;
+   }
 
 .navbar li {
    float: left;
@@ -75,7 +75,7 @@ header {
 .navbar li a:hover
      {
       background-color: #FFFFEE;
-      color: #7B9588;
+      color: #674d3c;
      }
 
 #text_paragraph {
@@ -89,8 +89,8 @@ header {
 }
 
 h1 {
-    color: #FFFFEE;
-    background-color: #7B8895;
+    color: #595249;
+    background-color: #fff2df;
     font-size: 2em;
     margin: 0;
     padding: 4px;
@@ -100,9 +100,7 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #7B94AC;
+    border-bottom: 0.5em solid #a2836e;
     }
 
     @media screen and (max-width: 600px) {
@@ -112,7 +110,7 @@ h1 {
    }
    .navbar li{
     float: none;
-    border-top: .5px solid #95957B;
+    border-top: .5px solid #fff2df;
    }
 
    h1 {

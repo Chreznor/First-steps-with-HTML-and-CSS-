@@ -10,8 +10,8 @@ body, html {
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
-    color: #D6D6B6;
-    background-color: #95957B;  
+    color: black;
+    background-color: white;  
     max-width: 1140px;
     padding: 0px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ body {
    padding: 0;
    list-style-type: none;
    overflow: hidden;
-   background-color: #7B9588;
+   background-color: #674d3c;
    }
 
 .navbar li {
@@ -44,7 +44,7 @@ body {
 .navbar li a:hover
      {
       background-color: #FFFFEE;
-      color: #7B9588;
+      color: #674d3c;
      }
 
 #text_paragraph {
@@ -58,8 +58,8 @@ body {
 }
 
 h1 {
-    color: #FFFFEE;
-    background-color: #7B8895;
+    color: #595249;
+    background-color: #fff2df;
     font-size: 2em;
     margin: 0;
     margin-bottom: 20px;
@@ -70,9 +70,7 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #7B94AC;
+    border-bottom: 0.5em solid #a2836e;
 }
 
 #content {
@@ -81,7 +79,7 @@ h1 {
 
 h2 {
     color: #FFFFEE;
-    background-color: #7B9588;
+    background-color: #674d3c;
     font-size: 1.5em;
     text-align: center;
     margin: auto;
@@ -121,23 +119,20 @@ p {
     width: 300px;
 }
 
-textarea: {
+textarea {
     width: 300px;
     height: 150px;
 }
 
-textarea:focus {
+.textarea:focus {
 	background-color: #837878;
     }
 
-input:focus {
-	background-color:#837878;
-    }
 
 .button {
-         background-color: #7B8895;
+         background-color: #595249;
          border-radius: 8px;
-         color: #ffc;
+         color: #fff2df;
          border: none;
          padding: 15px 32px 15px 32px;
          text-align: center;
@@ -167,9 +162,9 @@ input:focus {
         }
 
 .footer_start  {
-          border-top: 2px solid #7B94AC;
-          background-color: #7B8895;
-          color: #FFFFEE;
+          border-top: 2px solid #a2836e;
+          color: #595249;
+          background-color: #fff2df;
           margin-bottom: 0;
           padding: 10px 0 5px 15px; 
           text-align: left;
@@ -182,8 +177,8 @@ input:focus {
 .contact {
     margin: 0;
     padding: 10px 0 10px 30px;
-    background: #7B9588;
-    color: black;
+    background-color: #674d3c;
+    color: #FFFFEE;
     font-style: italic;
     }
 
@@ -194,7 +189,7 @@ input:focus {
    }
    .navbar li{
     float: none;
-    border-top: .5px solid #95957B;
+    border-top: .5px solid #fff2df;
    }
    h1 {
      text-align: center;

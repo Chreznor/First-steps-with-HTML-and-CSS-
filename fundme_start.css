@@ -10,24 +10,24 @@ body, html {
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
-    color: #D6D6B6;
-    background-color: #95957B;  
+    color: black;
+    background-color: white;  
     max-width: 1140px;
     padding: 0px;
     margin: 0 auto;
     }
  
+header {
+   box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.78);
+}
+
 .navbar {
    margin: 0;
    padding: 0;
    list-style-type: none;
    overflow: hidden;
-   background-color: #7B9588;
-    }
-
-header {
-   box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.78);
-}
+   background-color: #674d3c;
+   }
 
 .navbar li {
    float: left;
@@ -45,7 +45,7 @@ header {
 .navbar li a:hover
      {
       background-color: #FFFFEE;
-      color: #7B9588;
+      color: #674d3c;
      }
 
 #text_paragraph {
@@ -59,8 +59,8 @@ header {
 }
 
 h1 {
-    color: #FFFFEE;
-    background-color: #7B8895;
+    color: #595249;
+    background-color: #fff2df;
     font-size: 2em;
     margin: 0;
     margin-bottom: 10px;
@@ -71,9 +71,7 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #7B94AC;
+    border-bottom: 0.5em solid #a2836e;
     }
 
 #map {
@@ -81,18 +79,18 @@ h1 {
 }
 
 
-.map_hide a {
+.button_map_hide a {
   display: none;
   }
 
-.map_show a {
+.button_map_show a {
   width: 60px;
   height: 30px;
   background-color: green;
   display: block;
   margin: auto;
-  color: #FFFFEE;
-  background-color: #7B8895;
+  color: #fff2df;
+  background-color: #595249;
   text-decoration: none;
   text-align: center;
   padding: 6px;
@@ -108,7 +106,7 @@ h1 {
   text-align: justify;
   }
 
-.map_show a:hover {
+.button_map_show a:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -119,7 +117,7 @@ h1 {
 
 h2 {
     color: #FFFFEE;
-    background-color: #7B9588;
+    background-color: #674d3c;
     font-size: 1.5em;
     text-align: center;
     margin: auto;
@@ -155,9 +153,9 @@ p {
         }
 
 .footer_start  {
-          border-top: 2px solid #7B94AC;
-          background-color: #7B8895;
-          color: #FFFFEE;
+          border-top: 2px solid #a2836e;
+          color: #595249;
+          background-color: #fff2df;
           margin-bottom: 0;
           padding: 10px 0 5px 15px; 
           text-align: left;
@@ -170,8 +168,8 @@ p {
 .contact {
     margin: 0;
     padding: 10px 0 10px 30px;
-    background: #7B9588;
-    color: black;
+    background-color: #674d3c;
+    color: #FFFFEE;
     font-style: italic;
     }
 
@@ -183,7 +181,7 @@ p {
    }
    .navbar li{
     float: none;
-    border-top: .5px solid #95957B;
+    border-top: .5px solid #fff2df;
    }
    h1 {
      text-align: center;
