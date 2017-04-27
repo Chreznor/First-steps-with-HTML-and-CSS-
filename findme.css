@@ -31,11 +31,10 @@ body {
 .button_map_hide a {
   width: 60px;
   height: 30px;
-  background-color: #595249;
   display: block;
   margin: 1% auto auto auto;
   color: #fff2df;
-  background-color: #7B8895;
+  background-color: #595249;
   text-decoration: none;
   text-align: center;
   margin-top: 20px;
